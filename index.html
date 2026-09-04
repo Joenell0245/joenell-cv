@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Joenell M. Cabungcal — IT Support Specialist CV">
+  <meta name="theme-color" content="#ffffff">
+  <title>Joenell M. Cabungcal — CV</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: #f4f4f4; }
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #202020;
+      min-height: 100vh;
+    }
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      padding: 10px 14px;
+      background: rgba(255,255,255,.96);
+      border-bottom: 1px solid #ddd;
+      backdrop-filter: blur(8px);
+    }
+    .btn {
+      display: inline-block;
+      padding: 9px 15px;
+      border: 1px solid #bbb;
+      border-radius: 8px;
+      color: #202020;
+      background: #fff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .btn:hover { background: #f0f0f0; }
+    main {
+      width: min(100%, 1100px);
+      margin: 0 auto;
+      padding: 18px 12px 30px;
+    }
+    .cv {
+      display: block;
+      width: 100%;
+      height: auto;
+      background: #fff;
+      box-shadow: 0 2px 16px rgba(0,0,0,.10);
+    }
+    footer {
+      text-align: center;
+      color: #777;
+      font-size: 12px;
+      padding: 0 12px 24px;
+    }
+    @media print {
+      .topbar, footer { display: none; }
+      main { padding: 0; width: 100%; }
+      .cv { box-shadow: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="topbar">
+    <a class="btn" href="cv.jpg" download="Joenell-M-Cabungcal-CV.jpg">Download CV</a>
+    <a class="btn" href="cv.jpg" target="_blank" rel="noopener">Open Full Image</a>
+  </div>
+  <main>
+    <img class="cv" src="cv.jpg" alt="Joenell M. Cabungcal CV" loading="eager">
+  </main>
+  <footer>Joenell M. Cabungcal · IT Support Specialist</footer>
+</body>
+</html>
