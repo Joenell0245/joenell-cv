@@ -4,7 +4,7 @@ A simple, mobile-friendly static CV page using the uploaded CV image.
 
 ## Files
 - `index.html` — CV webpage
-- `cv.jpg` — uploaded CV image
+- `Joenell_CV.jpg` — uploaded CV image
 - `qr-code.png` — QR code intended to open the production URL
 
 ## Deploy with GitHub + Vercel
